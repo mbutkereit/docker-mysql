@@ -1,0 +1,8 @@
+[mysqld]
+max_connections = 150
+max_user_connections = 150
+max_allowed_packet = 400M
+slow-query-log          = 1
+slow-query-log_file     = /mysqldb/logs/.hostname..-slow-query.log
+long_query_time         = 5
+#log_slow_verbosity      = full   
